@@ -1,0 +1,8 @@
+#/usr/bin/env bash
+
+bundle install
+if [ ! -e .env ] ; then
+  cp .env.example .env
+fi
+
+echo "To start, run ruby sinatra_jira.rb"

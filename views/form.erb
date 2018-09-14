@@ -1,0 +1,31 @@
+<h2>Submit a bug to JIRA!</h2>
+<form action="/form" method="post">
+  <p>Name: <br>
+    <small>Name of bug submitter</small>
+    <br>
+    <input type="text" name="name">
+  </p>
+  <p>Descriptive Title: <br>
+    <small>Example: Got error page when trying to view a page</small>
+    <br>
+    <input type="text" name="title">
+  </p>
+  <p>Description:<br>​
+    <small>Example: I was trying to access the my profile when I got a 404</small><br>
+    <textarea id="description" rows="10" cols="70" name="description"></textarea></p>
+  <p>Source:
+    <br>
+    <small>Examples: You (please put your name), report from customer, etc.</small>
+    <br>
+    <input type="text" name="source">
+  </p>
+  <p>Do you see what they see?<br>
+    <small>Applicable if you did not discover the bug. Are you able to replicate it?</small><br>
+    <input type="checkbox" name="can_replicate">
+  </p>
+  <p>What Steps Did You Take To Find/Replicate This Issue: <br>
+    <small>Example: 1) Log in. 2) Click on Profile button. 3) Get a 404.</small>
+    <br>
+    <textarea id="steps" rows="10" cols="70" name="steps"></textarea></p>
+  <input type="submit">
+</form>
